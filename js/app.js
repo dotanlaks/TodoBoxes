@@ -2,7 +2,7 @@
  * Created by Dotana on 05/05/16.
  */
 jQuery.noConflict();
-var app = angular.module('TODO', ['ngMaterial']);
+var app = angular.module('TODO', []);
 
 app .controller('tasksCtrl', function($scope){
     $scope.boxes = [{boxName: "Today", tasks:[
